@@ -93,7 +93,6 @@ document.addEventListener("DOMContentLoaded", function () {
             nav: true,
             autoplay: true,
             autoplayButtonOutput: false,
-            controlsContainer: '#testimonial-slider-nav',
             controls: false,
             responsive: {
                 0: { items: 1 },
