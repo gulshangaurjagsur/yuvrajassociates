@@ -1,6 +1,3 @@
 RewriteEngine On
-
-# Redirect non-www and http to https://www
-RewriteCond %{HTTPS} off [OR]
-RewriteCond %{HTTP_HOST} ^yuvrajassociates\.in [NC]
-RewriteRule ^(.*)$ https://www.yuvrajassociates.in/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^www\.yuvrajassociates\.in [NC]
+RewriteRule ^(.*)$ https://yuvrajassociates.in/$1 [L,R=301]
