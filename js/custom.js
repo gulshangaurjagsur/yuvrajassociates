@@ -101,9 +101,4 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     }
-
-    // ------------------ GLightbox ------------------
-    GLightbox({
-        selector: '.glightbox'
-    });
 });
