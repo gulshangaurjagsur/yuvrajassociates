@@ -10321,3 +10321,14 @@ color: #4a4a4a;
   border: 2px #F28123 dotted;
   border-radius: 999px;
 }
+.sec-cta .contactBtn{
+text-align: center;
+margin-top: 2rem;
+}
+@media (min-width: 768px) {
+  .sec-cta .contactBtn{
+text-align: right;
+margin-top: 0;
+
+}
+}
