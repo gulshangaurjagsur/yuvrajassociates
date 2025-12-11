@@ -1,0 +1,13 @@
+# robots.txt for www.yuvrajassociates.in
+
+User-agent: *
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Allow all other pages
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.yuvrajassociates.in/sitemap.xml
